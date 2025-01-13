@@ -2,6 +2,9 @@
 node_modules/
 package-lock.json
 yarn.lock
+shell/node_modules/
+app1/node_modules/
+app2/node_modules/
 
 # Build outputs
 dist/
