@@ -1,69 +1,23 @@
-# Node.js dependencies
+# Ignorer les dossiers node_modules dans tous les sous-dossiers
 node_modules/
-package-lock.json
-yarn.lock
-shell/node_modules/
-app1/node_modules/
-app2/node_modules/
 
-# Build outputs
+# Ignorer les dossiers de build
 dist/
 build/
-.vscode/
 
-# Temporary files and logs
+# Logs et fichiers temporaires
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Editor and system-specific files
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-.idea/
-.vscode/
-*.iml
-
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Parcel cache (if using Parcel)
-.cache/
-
-# ESLint cache
-.eslintcache
-
-# Jest testing cache
-jest/
-
-# Coverage directory used by Jest
-coverage/
-
-# Storybook files
-.storybook/
-
-# React Native / Expo files
-.expo/
-.expo-shared/
-
-# Misc
-*.lock
-*.bak
 *.tmp
 
-# Module Federation specific files
-# (Assuming you use webpack for Module Federation)
-.mf/
-mf-config.json
-webpack.cache/
-webpack-stats.json
+# Systèmes spécifiques
+.DS_Store
+Thumbs.db
 
-# React testing library snapshots
-__snapshots__/
+# Ignorer les fichiers d'environnement
+.env
+.env.local
 
+# Ignorer les fichiers de cache de l'éditeur
+.idea/
+.vscode/
+*.swp
